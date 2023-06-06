@@ -1,0 +1,9 @@
+POST http://localhost:3000/food
+content-type: application/json
+
+{
+    "name": "Cheeseburger",
+    "cost": 2,
+    "pic": "https://i.ibb.co/FVWMjkW/Cheeseburger.jpg",
+    "restaurant": "6478419256ab2a99ff77fa1b"
+}

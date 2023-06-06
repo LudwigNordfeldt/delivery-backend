@@ -1,0 +1,7 @@
+POST http://localhost:3000/restaurant
+content-type: application/json
+
+{
+    "name": "KFC",
+    "pic": "https://i.ibb.co/W68xQ96/KFC-logo-svg.png"
+}
