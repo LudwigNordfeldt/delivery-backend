@@ -1,0 +1,8 @@
+POST http://localhost:3000/coupons
+content-type: application/json
+
+{
+    "name": "Donald Duck day",
+    "code": "R47Hkk24",
+    "discount": 0.35
+}

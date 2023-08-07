@@ -3,8 +3,8 @@ const Food = require('../models/Food')
 const Restaurant = require('../models/Restaurant')
 
 foodRouter.post('/', async (request, response) => {
-    const newRestaurant = new Food(request.body)
-    const save = await newRestaurant.save()
+    const newFood = new Food(request.body)
+    const save = await newFood.save()
     response.status(201).json(save)
 
     let rest = await Restaurant.findById(request.body.restaurant)
